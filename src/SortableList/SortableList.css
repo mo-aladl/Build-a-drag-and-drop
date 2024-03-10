@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+.list {
+  background-color: #eee;
+  margin-top: 20px;
+  width: 35%;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+li {
+  color: #2c3e50;
+  font-size: 18px;
+  line-height: 15px;
+  text-align: justify;
+  letter-spacing: 1px;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: white;
+  list-style: none;
+  border-radius: 3px;
+}
+
+/* responsive grid*/
+
+@media (min-width: 200px) and (max-width: 576px) {
+  .list {
+    width: 80%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .list {
+    width: 70%;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .list {
+    width: 60%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  .list {
+    width: 40%;
+  }
+}
